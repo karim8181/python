@@ -1,0 +1,10 @@
+p = 0
+n = int(input("chislo chisel"))
+min = 0
+a = []
+while n > p:
+    a.append( int(input()) )
+    if(a[p] < min):
+        min = a[p]
+    p = p + 1
+print(min)
